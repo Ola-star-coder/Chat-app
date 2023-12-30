@@ -255,9 +255,9 @@ nav ul li:hover {
 #article {
     margin-top: 10px;
     background: var(--footer);
-    /* width: 97%; */
-    /* margin: 0rem 1rem; */
-    /* border-radius: 30px; */
+    width: 97%;
+    margin: 0rem 1rem;
+    border-radius: 30px;
 }
 
 
@@ -323,6 +323,103 @@ nav ul li:hover {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.partner-text {
+    margin: 6rem;
+}
+
+.partner-text h3 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-variant: small-caps;
+}
+
+.partner-text h2 {
+    font-size: 36px;
+    margin-top: 1rem;
+}
+
+.partner-text p {
+    margin-top: 1rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.partner-text a {
+    text-decoration: underline;
+}
+
+.partner-text a:hover {
+    text-decoration: none;
+}
+
 .partner-img img {
     width: 70%;
+}
+
+footer {
+    background: var(--footer);
+}
+
+.footer {
+    padding: 70px;
+}
+
+.footer-box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.footer-content {
+    margin: 10px 0px;
+    color: #130d0d;
+}
+
+.footer-content h3 {
+    font-size: 23px;
+    color: #171313;
+}
+
+.footer-content ul li {
+    list-style: none;
+    margin: 5px 0px;
+}
+
+.footer-content ul li a {
+    color: #091201;
+    transition: transform 1s;
+}
+
+.footer-content ul li a:hover {
+    color: rgb(163, 24, 24);
+    cursor: pointer;
+    transition: .5s;
+    transform: translateY(-5px);
+    display: block;
+}
+
+.footer-content input {
+    margin-top: 10px;
+    width: 330px;
+    height: 40px;
+    outline: none;
+    border: none;
+}
+
+.footer-content button {
+    margin-left: -100px;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #080808;
+    color: #ffffff;
+    transition: .5s;
 }
