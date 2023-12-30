@@ -412,33 +412,6 @@ footer p {
     display: block;
 }
 
-.footer-content input {
-    margin-top: 10px;
-    width: 330px;
-    height: 40px;
-    outline: none;
-    border: none;
-}
-
-.footer-content button {
-    margin: 10px;
-}
-
-button {
-    width: 100px;
-    height: 40px;
-    border: none;
-    outline: none;
-    transition: 1s;
-    cursor: pointer;
-}
-
-button:hover {
-    background: #080808;
-    color: #ffffff;
-    transition: .5s;
-}
-
 /* RESPNSIVE */
 @media screen and (max-width:1474px) {
     .hero-img img {
