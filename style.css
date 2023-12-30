@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+:root {
+    --footer: #D2E3C8;
+    --main: white;
+}
+
+header {
+    background: black;
+    color: aliceblue;
+    position: static;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    position: static;
+}
+
+nav .logo {
+    margin-left: 30px;
+    font-family: 'Single Day', cursive;
+    font-size: 48px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px 40px;
+    font-size: 23px;
+}
+
+nav ul li {
+    color: blueviolet;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 10px;
+    border: 3px solid rgb(164, 71, 71);
+    padding: 10px;
+}
+
+nav ul li:hover {
+    color: chartreuse;
+    transition: .5s;
+    text-decoration: underline;
+}
+
+#hero {
+    background: rgb(255, 255, 255);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.hero-img img {
+    width: 100%;
+}
+
+.hero-text {
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.hero-text h2 {
+    font-size: 50px;
+}
+
+.hero-text p {
+    font-size: 23px;
+}
+
+.hero-text .role {
+    font-size: 16px;
+}
+
+.btn-group {
+    margin: 30px 0px;
+    display: inline-block;
+}
+
+.btn-group a {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    font-size: 19px;
+    transition: 1s;
+}
+
+.btn-group a:hover {
+    background: black;
+    color: var(--main);
+    transition: .5s;
+}
+
+#clients {
+    margin-top: 10px;
+}
+
+.cliens {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.client {
+    text-align: center;
+}
+
+#features {
+    margin-top: 30px;
+    color: rgb(68, 66, 66);
+}
+
+.features-head {
+    margin-left: 6rem;
+}
+
+.features-head h2 {
+    font-size: 37px;
+}
+
+.conts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.content {
+    border: 1px solid rgb(60, 60, 60);
+    width: 470px;
+    height: auto;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+    border-radius: 30px;
+    background: rgb(226, 222, 222);
+    transition: 1s;
+}
+
+.content:hover {
+    background: #130d0d;
+    color: #ffffff;
+    transition: .5s;
+}
+
+.star {
+    margin-top: 30px;
+    margin-left: 40px;
+    color: brown;
+}
+
+.star i {
+    font-size: 94px;
+}
+
+.content h2 {
+    padding-left: 30px;
+    margin-top: 50px;
+    font-size: 44px;
+}
+
+.content p {
+    padding-left: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#cloud {
+    margin-top: 30px;
+}
+
+.cloud {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cloud-text {
+    margin: 70px 70px;
+}
+
+.cloud-text h2 {
+    font-size: 4rem;
+}
+
+.cloud-img img {
+    width: 65%;
+}
+
+#voice {
+    margin-top: 20px;
+}
+
+.voice {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.voice-img img {
+    width: 100%;
+}
+
+.voice-text {
+    margin-top: 4rem;
+}
+
+.voice-text h2 {
+    font-size: 4rem;
+}
+
+.voice-text p {
+    font-size: 15px;
+}
+
+#date {
+    margin-top: 20px;
+}
+
+.date {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.date-text {
+    margin: 10rem 3rem;
+}
+
+.date-text a {
+    margin-top: 2rem;
+    color: #080808;
+    text-decoration: underline;
+}
+
+.date-text a:hover {
+    text-decoration: rgb(235, 6, 6);
+}
+
+.date-text h2 {
+    font-size: 4rem;
+}
+
+.date-img img {
+    width: 80%;
+}
+
+#article {
+    margin-top: 10px;
+    background: var(--footer);
+    /* width: 97%; */
+    /* margin: 0rem 1rem; */
+    /* border-radius: 30px; */
+}
+
+
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-box {
+    width: 350px;
+    background: #171313;
+    margin: 50px 20px;
+}
+
+.article-conntent {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.article-text {
+    padding: 10px 30px;
+    color: #ffffff;
+}
+
+.article-text h3 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.article-text p {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.article-text a {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.article-text a:hover {
+    text-decoration: none;
+}
+
+.article-text a i {
+    padding: 10px;
+    color: rgb(43, 255, 0);
+    font-size: 19px;
+}
+
+.img img {
+    width: 100%;
+}
+
+#partner {
+    margin-top: 30px;
+}
+
+.partner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.partner-img img {
+    width: 70%;
+}
