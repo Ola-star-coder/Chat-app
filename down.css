@@ -1,0 +1,38 @@
+#download {
+    padding-top: 5rem;
+}
+
+.download {
+    padding-bottom: 1rem;
+}
+
+.image {
+    text-align: center;
+}
+
+.image img {
+    width: 60%;
+}
+
+.word {
+    text-align: center;
+}
+
+.font {
+    font-size: 97px;
+    color: green;
+}
+
+.word h3 {
+    margin: 10px 0px;
+}
+
+@media screen and (max-width:700px) {
+    .image img {
+        width: 100%;
+    }
+
+    #download {
+        padding-top: 6rem;
+    }
+}
