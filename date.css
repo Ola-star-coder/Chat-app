@@ -1,0 +1,147 @@
+#dater {
+    padding-top: 6rem;
+}
+
+.date-one {
+    margin: 10px;
+}
+
+.date-image {
+    text-align: center;
+}
+
+.date-image img {
+    width: 35%;
+}
+
+.text-one {
+    text-align: center;
+    color: rgb(63, 62, 62);
+}
+
+.text-one h2 {
+    font-size: 30px;
+}
+
+#help {
+    padding-top: 2rem;
+}
+
+.help {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-bottom: 2rem;
+}
+
+.content-help {
+    text-align: center;
+}
+
+.content-help h2 {
+    font-size: 70px;
+}
+
+#pricing {
+    padding-top: 2rem;
+}
+
+.pricing {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pricing-box {
+    margin: 20px 2rem;
+    border-radius: 30px;
+    width: 400px;
+    background: wheat;
+    height: 200px;
+    transition: 1s;
+}
+
+.pricing-box:hover {
+    background: black;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.pricing-content {
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.pricing-content h3 {
+    font-size: 30px;
+}
+
+.pricing-content h2 {
+    font-size: 65px;
+    padding-top: 20px;
+    color: brown;
+}
+
+span {
+    font-size: 19px;
+    color: rgb(67, 66, 66);
+}
+
+@media screen and (max-width:1136px) {
+    .help {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 2rem;
+        gap: 20px;
+    }
+
+    .content-help h2 {
+        font-size: 60px;
+    }
+}
+
+@media screen and (max-width:809px) {
+    .help {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-bottom: 2rem;
+        gap: 20px;
+    }
+
+    .content-help h2 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:534px) {
+    .help {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2rem;
+        gap: 20px;
+    }
+
+    .content-help h2 {
+        font-size: 30px;
+    }
+
+    .date-image img {
+        width: 65%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .help {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2rem;
+        gap: 20px;
+    }
+
+    .content-help h2 {
+        font-size: 23px;
+    }
+
+    .content-help p {
+        font-size: 14px;
+    }
+}
