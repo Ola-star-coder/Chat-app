@@ -1,0 +1,88 @@
+#sell {
+    padding-top: 3rem;
+    background: #CDF5FD;
+}
+
+.sell {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.seel-text {
+    padding: 4rem;
+}
+
+.seel-text h2 {
+    padding: 10px 0px;
+}
+
+.sell-img img {
+    width: 70%;
+}
+
+#testimonials {
+    background: #D2E0FB;
+    padding-top: 20px;
+}
+
+.test {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+button {
+    width: 160px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 1s;
+}
+
+button:hover {
+    background: black;
+    color: aliceblue;
+    transition: .5s;
+}
+
+.testimonial {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 40px;
+}
+
+.testimonial-content {
+    margin: 20px 20px;
+}
+
+@media screen and (max-width:1270px) {
+    .testimonial {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+        padding: 60px;
+    }
+
+    .testimonial-content {
+        margin: 20px 0px;
+    }
+}
+
+@media screen and (max-width:1030px) {
+    .sell {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .sell-img {
+        text-align: center;
+    }
+
+    .sell-img img {
+        width: 80%;
+    }
+
+    .seel-text {
+        padding: 1rem;
+    }
+}
